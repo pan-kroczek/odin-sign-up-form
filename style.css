@@ -34,8 +34,8 @@ a {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 35vw;
-    padding-top: 122px;
+    width: 35%;
+    padding-top: 106px;
     padding-bottom: 16px;
     box-sizing: border-box;
     position: relative;
@@ -72,7 +72,8 @@ img {
 }
 
 #text-and-form {
-    padding-top: 96px;
+    padding-top: 80px;
+    width: 65%;
 }
 
 #upper-text,
@@ -101,12 +102,23 @@ form {
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
-    width: 100%;
+    max-width: 936px;
     padding-left: var(--left-text-padding);
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-bottom: 40px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, .1);
 }
+
+input {
+    border: 1px solid #DEDEDE;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+
+::placeholder {
+    color: #C3C3C3;
+  }
 
 label {
     font-weight: 500;
@@ -137,4 +149,12 @@ button {
     color: white;
     border: none;
     border-radius: 6px;
+}
+
+input:invalid {
+    border: 1px solid #B91C1C;
+}
+
+button:active {
+    background-color: #417F39;
 }
