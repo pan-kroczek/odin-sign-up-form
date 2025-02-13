@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="img">
+        <div id="logo">
+            <img src="images/odin-lined.png" alt="An icon of a norse god.">
+            <div id="logo-text">ODIN</div>
+        </div>
+        <div id="photo-author">Photo by <a href="https://unsplash.com/photos/green-and-brown-mountain-under-white-clouds-during-daytime-WApJfijCBWU" target="_blank">Chris Henry</a> on Unsplash.</div>
+    </div>
+
+    <div id="text-and-form">
+        <div id="upper-text">
+            <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
+            <h2>You <em>know</em> you want to.</h2>
+        </div>
+
+        <form action="example.com/path" method="post">
+            <h2>Let's do this!</h2>
+
+            <div class="row">
+                <fieldset class="input-field">
+                    <label for="first-name">First name</label>
+                    <input type="text" id="first-name">
+                </fieldset>
+
+                <fieldset class="input-field">
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name">
+                </fieldset>
+            </div>
+
+            <div class="row">
+                <fieldset class="input-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </fieldset>
+
+                <fieldset class="input-field">
+                    <label for="phone-number">Phone number</label>
+                    <input type="tel" id="phone-number">
+                </fieldset>
+            </div>
+
+            <div class="row">
+                <fieldset class="input-field">
+                    <label for="pwd">Password</label>
+                    <input type="password" id="pwd">
+                </fieldset>
+
+                <fieldset class="input-field">
+                    <label for="confirm-pwd">Confirm password</label>
+                    <input type="password" id="confirm-pwd">
+                </fieldset>
+            </div>
+        </form>
+
+        <div id="button-and-txt">
+            <button type="submit">Create Account</button>
+            <span>Already have an account? <strong>Log in</strong></span>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

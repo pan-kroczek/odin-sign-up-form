@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url("fonts/Norse-Bold.otf") format("opentype");
+}
+
+html, body {
+    background-color: #F7F7F7;
+    font-family: Inter;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    --left-text-padding: 3.25rem;
+}
+
+body {
+    display: flex;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.375rem;
+    font-weight: 400;
+}
+
+a {
+    color: rgb(255, 255, 255, 0.75);
+}
+
+#img {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 35vw;
+    padding-top: 122px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 0, 0, 0.4);
+    gap: 0;
+}
+
+#logo-text {
+    font-family: Norse-Bold;
+    font-size: 6rem;
+    color: white;
+    padding: 26px 0 0 0;
+}
+
+img {
+    max-width: 95px;
+}
+
+#photo-author {
+    font-weight: 300;
+    font-size: 0.8125rem;
+    text-align: center;
+    color: rgb(255, 255, 255, 0.75);
+    position: absolute;
+    bottom: 16px;
+}
+
+#text-and-form {
+    padding-top: 96px;
+}
+
+#upper-text,
+#button-and-txt {
+    padding-left: var(--left-text-padding);
+    max-width: 670px;
+    display: flex;
+    flex-direction: column;
+}
+
+#upper-text {
+    gap: 1.75rem;
+    margin-bottom: 40px;
+}
+
+#upper-text h2:first-child {
+    font-weight: 700;
+}
+
+#button-and-txt {
+    gap: 24px;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 100%;
+    padding-left: var(--left-text-padding);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 40px;
+}
+
+label {
+    font-weight: 500;
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border: none;
+    width: 262px;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    gap: 64px;
+}
+
+button {
+    padding: 12px 48px 12px 48px;
+    max-width: 233px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: #2F5D29;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
