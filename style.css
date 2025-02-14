@@ -69,6 +69,7 @@ img {
     color: rgb(255, 255, 255, 0.75);
     position: absolute;
     bottom: 16px;
+    width: 100%;
 }
 
 #text-and-form {
